@@ -31,7 +31,7 @@ def _game():
     game_root = tk.Toplevel(root)
     game_root.geometry(f"+{geo[0]}+{geo[1]}")
     root.withdraw()
-    img1 = tk.PhotoImage(file=r"C:\Users\Kuba\Desktop\ucze_sie\Projekty\Minesweeper\sun.png")
+    img1 = tk.PhotoImage(file=r"sun.png")
     sun_button = tk.Button(game_root, image=img1, command=beg)
     sun_button.image = img1
     sun_button.pack(pady=(20, 0))
